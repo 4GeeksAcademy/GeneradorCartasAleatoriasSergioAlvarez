@@ -68,5 +68,5 @@ botonAlto.addEventListener('click', () => {
 
 cartaDefault.addEventListener('click', () => {
   carta.style.width = "25vh"
-  carta.style.height = "50vh"
+carta.style.height = "50vh"
 })
