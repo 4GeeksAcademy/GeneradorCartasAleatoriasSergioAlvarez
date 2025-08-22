@@ -8,13 +8,13 @@
 
 body{
     height: 100vh;
+    background-image: url("https://st2.depositphotos.com/1743352/9874/v/450/depositphotos_98744558-stock-illustration-minimalistic-red-poker-background-with.jpg")
 }
 
 .displayCarta{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
     flex-direction: column;
     margin-top: 1vh;
 }
@@ -23,8 +23,10 @@ body{
     background-color: rgb(255, 248, 239);
     display: flex;
     width: 25vh;
-    height: 50vh;
+    height: 40vh;
     border: 1px solid black;
+    border-radius: 5px;
+    
 }
 
 .iconosCarta{
@@ -33,4 +35,26 @@ body{
 
 #numero, #iconoArribaIzquierda, #iconoAbajoDerecha {
     font-size: 6vh;
+}
+
+#iconoAbajoDerecha {
+    transform: scale(-1);
+}
+
+
+#boton, #botonAncho, #botonAlto, #cartaDefault {
+    background-image: url("https://media.istockphoto.com/id/1092139474/es/foto/pa%C3%B1o-de-tabla-de-poker-casino-verde-vac%C3%ADa-con-el-proyector.jpg?s=612x612&w=0&k=20&c=ddHq9o9-Dp1R8kYLyRLbioIzb_6KZoKv2dvBNNxRItE=");
+    width: 25vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+}
+
+#boton:active, #botonAncho:active, #botonAlto:active, #cartaDefault:active{
+
+    box-shadow: 0px 0px 0px 0px;
 }
